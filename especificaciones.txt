@@ -1,0 +1,308 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Campeche 250, Col San Benito, C.P. 83190, Hermosillo Sonora, México. 
+Tel. 6622 15 10 20, 6622 15 10 80 Email: m.olea@rayforce.com.mx; admon@rayforce.com.mx 
+ 
+ESPECIFICACIONES PARA LA PÁGINA WEB – RAYFORCE 
+Empresa: 
+Rayforce – Soluciones eléctricas, materiales de calidad y servicios integrales. 
+1. OBJETIVO PRINCIPAL 
+La página web debe: 
+• 
+Vender materiales eléctricos y ferreteros en línea. 
+• 
+Permitir cotizar proyectos eléctricos, civiles y arquitectónicos, también con unidad verificadora para instalaciones eléctricas. 
+• 
+Mostrar nuestros servicios profesionales. 
+• 
+Permitir pagos en línea y opciones de envío o recolección en tienda. 
+2. ESTRUCTURA GENERAL DE LA WEB 
+La página debe incluir: 
+- 
+Inicio 
+- 
+Banner principal 
+- 
+Botones directos: 
+• 
+Comprar ahora 
+• 
+Cotizar proyecto 
+• 
+Ver servicios 
+• 
+Carrito  
+• 
+Productos destacados 
+• 
+Categorías principales 
+• 
+Marcas que manejamos 
+• 
+Testimonios (si se pueden agregar) 
+• 
+Llamado a la acción (Contáctanos) 
+- 
+Tienda en línea, con categorías como: 
+• 
+Material eléctrico 
+• 
+Herramientas 
+• 
+Iluminación 
+• 
+Tubería y conduit 
+• 
+Interruptores y tableros 
+• 
+Accesorios y fijación 
+• 
+Ferretería general 
+- 
+Cada producto debe tener: 
+• 
+Nombre 
+• 
+Código/SKU 
+• 
+Marca 
+• 
+Especificaciones 
+• 
+Precio 
+• 
+Precio con descuento (si aplica) 
+• 
+Existencia (stock) 
+• 
+Variantes (ej. calibres, tamaños) 
+• 
+Fotografías 
+• 
+Ficha técnica descargable (como documento pdf) 
+
+
+---PAGE BREAK---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Campeche 250, Col San Benito, C.P. 83190, Hermosillo Sonora, México. 
+Tel. 6622 15 10 20, 6622 15 10 80 Email: m.olea@rayforce.com.mx; admon@rayforce.com.mx 
+ 
+• 
+Botón agregar al carrito 
+• 
+Botón comprar ahora 
+• 
+Botón solicitar cotización (opcional para productos especiales) 
+3. FUNCIONES DE COMPRA 
+Debe incluir: 
+• 
+Carrito de compras 
+• 
+Crear cuenta de cliente 
+• 
+Compra como invitado 
+• 
+Historial de pedidos 
+• 
+Confirmación automática por correo 
+• 
+Facturación (si se puede integrar) 
+• 
+Seguimiento de pedido 
+ 
+4️. ÁREA ADMINISTRATIVA (MUY IMPORTANTE) 
+Necesitamos un panel donde nosotros podamos: 
+• 
+Agregar productos 
+• 
+Editar precios 
+• 
+Actualizar existencias 
+• 
+Subir fotos 
+• 
+Crear categorías 
+• 
+Activar o desactivar productos 
+• 
+Ver ventas 
+• 
+Descargar reportes 
+• 
+Ver clientes registrados 
+• 
+Aplicar descuentos o promociones 
+• 
+Crear cupones 
+• 
+Ver pedidos pendientes 
+• 
+Cambiar estatus de envío 
+• 
+Debe ser fácil de usar. 
+ 
+5. SECCIÓN DE SERVICIOS 
+Debe incluir páginas para: 
+• 
+Obras eléctricas 
+• 
+Obras civiles 
+• 
+Proyectos arquitectónicos 
+• 
+Unidad verificadora eléctrica 
+• 
+Mantenimiento preventivo y correctivo 
+• 
+Subestaciones 
+• 
+Tableros eléctricos 
+Cada servicio debe tener: 
+• 
+Descripción clara 
+• 
+Imágenes 
+
+
+---PAGE BREAK---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Campeche 250, Col San Benito, C.P. 83190, Hermosillo Sonora, México. 
+Tel. 6622 15 10 20, 6622 15 10 80 Email: m.olea@rayforce.com.mx; admon@rayforce.com.mx 
+ 
+• 
+Botón de “Solicitar cotización” 
+ 
+6️. FORMULARIO DE COTIZACIÓN DE PROYECTOS 
+Debe incluir formulario donde el cliente pueda: 
+• 
+Nombre (Obligatorio) 
+• 
+Empresa (opcional) 
+• 
+Teléfono (Obligatorio) 
+• 
+Correo (Obligatorio) 
+• 
+Tipo de proyecto (Obligatorio) 
+• 
+Ubicación (Obligatorio) 
+• 
+Descripción (Obligatorio) 
+Y que llegue directamente a nuestro correo. 
+ 
+7️. PAGOS EN LÍNEA 
+Debe aceptar: 
+• 
+Tarjeta de débito 
+• 
+Tarjeta de crédito 
+• 
+Pago en Oxxo, mercado pago y otras plataformas confiables (si se puede) 
+• 
+Transferencia 
+• 
+Opción pago contra entrega (si se puede) 
+• 
+Opción cotizar primero (para grandes volúmenes) 
+ 
+8. ENVÍOS Y ENTREGA 
+Opciones: 
+• 
+Envío a domicilio 
+• 
+Recolección en tienda 
+• 
+Envío local en Hermosillo 
+• 
+Cotización de envío para pedidos grandes 
+• 
+Debe calcular envío automáticamente si se puede. (o solicitar cotización para envío) 
+ 
+9. SECCIÓN INSTITUCIONAL 
+• 
+Sobre nosotros 
+• 
+Misión 
+• 
+Visión 
+• 
+Marcas que manejamos 
+• 
+Contacto 
+• 
+Dirección con Google Maps 
+• 
+WhatsApp directo 
+• 
+Redes sociales 
+ 
+
+
+---PAGE BREAK---
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Campeche 250, Col San Benito, C.P. 83190, Hermosillo Sonora, México. 
+Tel. 6622 15 10 20, 6622 15 10 80 Email: m.olea@rayforce.com.mx; admon@rayforce.com.mx 
+ 
+FUNCIONES ADICIONALES IMPORTANTES 
+1. Buscador inteligente de productos 
+2. Filtros (marca, precio, categoría) 
+3. Sitio adaptable a celular (responsive) 
+4. SEO básico 
+5. Seguridad SSL 
+6. Aviso de privacidad 
+7. Términos y condiciones 
+8. Política de devoluciones 
+ 
+SEGURIDAD 
+Protección contra fraudes 
+Certificado SSL 
+Protección de datos 
+Backups  
+MARKETING 
+Integración con Facebook Pixel 
+Google Analytics 
+Newsletter 
+Pop up de promociones 
+ 
+Paginas para ejemplos o basarnos en el diseño/contenido: 
+- 
+TECNO ELÉCTRICA POTOSÍ - SITIO WEB OFICIAL | Material eléctrico | Avenida Salvador Nava Martínez 456, Nuevo 
+Paseo, San Luis Potosi, Mexico 
+- 
+Material Eléctrico en Hermosillo, Sonora | Electrica Lux 
+- 
+Inicio - Grupo Díaz 
+ 
+*TODAS LAS IMÁGENES/FLYER O CUALQUIER ILUSTRACION PUEDO HACERLA YO, NOMAS DIME QUE NECESITAS O PARA QUE 
+PARTE Y QUE TAMAÑOS 
+ 
+
+
+---PAGE BREAK---
+

@@ -1,0 +1,7 @@
+node_modules/
+.env
+__pycache__/
+*.pyc
+progreso_scraping.json
+progreso_imagenes.json
+.vscode/
