@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { CartProvider } from "@/lib/cart";
 
 export const metadata: Metadata = {
-  title: "Rayforce — Material Eléctrico y Ferretería en Hermosillo",
-  description: "Tienda en línea de material eléctrico, herramientas y ferretería. Más de 2,000 productos de marcas líderes como Truper, Square D y más. Envíos a todo Sonora.",
+  title: "Rayforce | Precision Engineering & Electrical Solutions",
+  description: "Ingeniería de precisión aplicada a cada componente. Suministros industriales para proyectos que demandan excelencia y durabilidad técnica.",
   keywords: "material eléctrico, herramientas, ferretería, Hermosillo, Sonora, Truper, interruptores, tableros eléctricos",
 };
 
@@ -17,11 +17,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
-      <body>
+    <html lang="es" className="light">
+      <body className="bg-surface font-body text-on-surface antialiased selection:bg-primary-container selection:text-primary min-h-screen flex flex-col">
         <CartProvider>
-          <Header />
-          <main>{children}</main>
+          <Navbar />
+          <main className="flex-grow pt-20">{children}</main>
           <Footer />
           <WhatsAppButton />
         </CartProvider>
