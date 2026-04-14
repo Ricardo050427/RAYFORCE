@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&amp;family=Inter:wght@400;500;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed": "#e2e2e2",
+              "error-container": "#ff8b9a",
+              "surface-tint": "#4b4dce",
+              "primary-fixed-dim": "#d1d0ff",
+              "surface": "#f9f9fb",
+              "surface-dim": "#d3dbe2",
+              "inverse-primary": "#8083ff",
+              "surface-container-highest": "#dde3e9",
+              "primary-fixed": "#e1e0ff",
+              "on-background": "#2d3338",
+              "tertiary-fixed": "#ced6f5",
+              "on-primary-fixed": "#2927ae",
+              "on-surface-variant": "#596065",
+              "tertiary-fixed-dim": "#c0c8e6",
+              "background": "#f9f9fb",
+              "tertiary-container": "#ced6f5",
+              "surface-container-high": "#e4e9ee",
+              "on-primary-container": "#3e3fc0",
+              "surface-container": "#ebeef2",
+              "on-secondary-container": "#525252",
+              "on-secondary-fixed": "#3f3f3f",
+              "primary": "#4b4dce",
+              "secondary-fixed-dim": "#d4d4d4",
+              "secondary-dim": "#535353",
+              "on-error-container": "#782232",
+              "surface-container-low": "#f2f4f6",
+              "outline-variant": "#acb3b8",
+              "on-primary": "#faf6ff",
+              "primary-dim": "#3f3fc1",
+              "tertiary-dim": "#4a536b",
+              "secondary": "#5f5f5f",
+              "on-surface": "#2d3338",
+              "on-error": "#fff7f7",
+              "error": "#9e3f4e",
+              "surface-bright": "#f9f9fb",
+              "inverse-on-surface": "#9c9d9f",
+              "outline": "#757c81",
+              "error-dim": "#4f0116",
+              "on-tertiary": "#f9f9ff",
+              "on-tertiary-container": "#424a63",
+              "secondary-container": "#e2e2e2",
+              "primary-container": "#e1e0ff",
+              "on-tertiary-fixed": "#2f374f",
+              "on-secondary-fixed-variant": "#5b5b5b",
+              "on-primary-fixed-variant": "#484acb",
+              "on-secondary": "#f9f9f9",
+              "tertiary": "#565e78",
+              "surface-variant": "#dde3e9",
+              "inverse-surface": "#0c0e10",
+              "on-tertiary-fixed-variant": "#4b546d",
+              "surface-container-lowest": "#ffffff"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Manrope"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-nav {
+            background-color: rgba(249, 249, 251, 0.7);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation Bar -->
+<nav class="bg-[#f9f9fb]/70 dark:bg-[#121212]/70 backdrop-blur-md docked full-width top-0 sticky z-50">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-black text-[#13069f] dark:text-[#4b4dce] uppercase tracking-tighter font-['Manrope']">
+                Rayforce
+            </div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-[#2d3338] dark:text-[#acb3b8] hover:text-[#13069f] transition-colors font-['Manrope'] font-bold tracking-tight" href="#">Products</a>
+<a class="text-[#2d3338] dark:text-[#acb3b8] hover:text-[#13069f] transition-colors font-['Manrope'] font-bold tracking-tight" href="#">Solutions</a>
+<a class="text-[#13069f] dark:text-[#4b4dce] border-b-2 border-[#13069f] pb-1 font-['Manrope'] font-bold tracking-tight" href="#">About</a>
+<a class="text-[#2d3338] dark:text-[#acb3b8] hover:text-[#13069f] transition-colors font-['Manrope'] font-bold tracking-tight" href="#">Contact</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="material-symbols-outlined text-[#2d3338] hover:opacity-80 transition-opacity">search</button>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded font-['Manrope'] font-bold tracking-tight hover:opacity-90 active:scale-95 transition-all">
+                    Consultation
+                </button>
+</div>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative h-[870px] flex items-center overflow-hidden bg-surface-container">
+<div class="absolute inset-0 z-0">
+<img alt="Rayforce Engineering Vision" class="w-full h-full object-cover grayscale opacity-40" data-alt="Modern minimalist architectural detail of a glass and steel skyscraper against a clear sky, clean lines, high-end engineering aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDR8tN81w-D72QHf_PUFF3-NqVY9rLx3pdp5utjtBgMBLbjHiSyQR-2rO0h7UARktvlLNrKpEyNJWiGWmEjLfao1XUpAOu6JWrPQjbiZFJr8GYkons1EfVGPX7TW4YFlZ50UjFZvAFJfszt9BzNnZmdTQMmsB8h6EDU_bEGgEm-dGQCJZu3OFdalCW9rt_3Q65XsvffE79VZwzGpgngT5FhQBf3I0kF5LVE7upakiAp4D5Knx1kJ7lcU7n_jfP8vHcgbQlK_yqv8JhE"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-screen-2xl mx-auto px-8 w-full grid grid-cols-1 md:grid-cols-12 gap-8">
+<div class="md:col-span-8">
+<span class="font-label text-xs uppercase tracking-[0.3em] text-primary mb-6 block font-bold">The Digital Atelier</span>
+<h1 class="font-headline text-6xl md:text-8xl font-extrabold tracking-tighter text-on-surface leading-[0.9] mb-8">
+                        La Ingeniería del <br/> Futuro, <span class="text-primary italic">Hoy.</span>
+</h1>
+<p class="font-body text-xl md:text-2xl text-on-surface-variant max-w-xl leading-relaxed">
+                        Redefiniendo los estándares industriales mediante precisión matemática y diseño vanguardista. No solo fabricamos componentes; diseñamos soluciones permanentes.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Our Mission -->
+<section class="py-32 bg-surface">
+<div class="max-w-screen-2xl mx-auto px-8 grid grid-cols-1 md:grid-cols-12 gap-12 items-end">
+<div class="md:col-span-4">
+<h2 class="font-label text-sm uppercase tracking-widest text-outline mb-4">Nuestra Misión</h2>
+</div>
+<div class="md:col-span-8">
+<p class="font-headline text-4xl md:text-6xl font-light leading-tight text-on-surface">
+                        Nuestra misión es transformar la infraestructura global a través de la <span class="font-extrabold">excelencia técnica</span> y la integración de sistemas inteligentes que optimizan cada watt de energía.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Our Values: Bento-style Grid -->
+<section class="py-32 bg-surface-container-low">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="mb-20">
+<h2 class="font-headline text-5xl font-bold tracking-tight">Valores Fundamentales</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+<!-- Precision -->
+<div class="bg-surface-container-lowest p-10 border-none group hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-4xl mb-8 text-primary group-hover:text-on-primary transition-colors" data-icon="architecture">architecture</span>
+<h3 class="font-headline text-2xl font-bold mb-4 group-hover:text-on-primary">Precisión</h3>
+<p class="font-body text-on-surface-variant group-hover:text-on-primary/80">Tolerancia cero al error. Cada diseño es validado bajo los estándares más rigurosos del mercado global.</p>
+</div>
+<!-- Innovation -->
+<div class="bg-surface-container-lowest p-10 border-none group hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-4xl mb-8 text-primary group-hover:text-on-primary transition-colors" data-icon="lightbulb">lightbulb</span>
+<h3 class="font-headline text-2xl font-bold mb-4 group-hover:text-on-primary">Innovación</h3>
+<p class="font-body text-on-surface-variant group-hover:text-on-primary/80">Exploramos constantemente nuevas fronteras en la ciencia de materiales y eficiencia energética.</p>
+</div>
+<!-- Reliability -->
+<div class="bg-surface-container-lowest p-10 border-none group hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-4xl mb-8 text-primary group-hover:text-on-primary transition-colors" data-icon="verified_user">verified_user</span>
+<h3 class="font-headline text-2xl font-bold mb-4 group-hover:text-on-primary">Fiabilidad</h3>
+<p class="font-body text-on-surface-variant group-hover:text-on-primary/80">Componentes diseñados para durar décadas, garantizando la continuidad de su operación industrial.</p>
+</div>
+<!-- Sustainability -->
+<div class="bg-surface-container-lowest p-10 border-none group hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-4xl mb-8 text-primary group-hover:text-on-primary transition-colors" data-icon="eco">eco</span>
+<h3 class="font-headline text-2xl font-bold mb-4 group-hover:text-on-primary">Sostenibilidad</h3>
+<p class="font-body text-on-surface-variant group-hover:text-on-primary/80">Compromiso real con la reducción de la huella de carbono a través de procesos circulares.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- History/Timeline -->
+<section class="py-32 bg-surface overflow-hidden">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="mb-20 flex justify-between items-baseline">
+<h2 class="font-headline text-5xl font-bold tracking-tight">Evolución</h2>
+<span class="font-label text-sm text-outline">2010 — 2024</span>
+</div>
+<div class="relative">
+<!-- Horizontal Line -->
+<div class="absolute top-1/2 left-0 w-full h-px bg-outline-variant/30 hidden md:block"></div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 relative z-10">
+<!-- 2010 -->
+<div class="flex flex-col gap-6">
+<div class="w-4 h-4 rounded-full bg-primary mx-auto md:mx-0"></div>
+<span class="font-headline text-4xl font-black text-primary/20">2010</span>
+<h4 class="font-headline text-xl font-bold">Fundación</h4>
+<p class="text-on-surface-variant leading-relaxed">Rayforce nace como un laboratorio de consultoría técnica en Munich.</p>
+</div>
+<!-- 2015 -->
+<div class="flex flex-col gap-6 md:mt-24">
+<div class="w-4 h-4 rounded-full bg-primary mx-auto md:mx-0"></div>
+<span class="font-headline text-4xl font-black text-primary/20">2015</span>
+<h4 class="font-headline text-xl font-bold">Primera Patente</h4>
+<p class="text-on-surface-variant leading-relaxed">Lanzamiento del sistema de interconexión modular ultra-eficiente.</p>
+</div>
+<!-- 2020 -->
+<div class="flex flex-col gap-6">
+<div class="w-4 h-4 rounded-full bg-primary mx-auto md:mx-0"></div>
+<span class="font-headline text-4xl font-black text-primary/20">2020</span>
+<h4 class="font-headline text-xl font-bold">Expansión Global</h4>
+<p class="text-on-surface-variant leading-relaxed">Apertura de centros logísticos en LATAM y Asia Central.</p>
+</div>
+<!-- 2024 -->
+<div class="flex flex-col gap-6 md:mt-24">
+<div class="w-4 h-4 rounded-full bg-primary mx-auto md:mx-0"></div>
+<span class="font-headline text-4xl font-black text-primary/20">2024</span>
+<h4 class="font-headline text-xl font-bold">Digital Atelier</h4>
+<h4 class="font-headline text-xl font-bold">Liderazgo 4.0</h4>
+<p class="text-on-surface-variant leading-relaxed">Integración total de IA en el diseño predictivo de hardware.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Leadership Team -->
+<section class="py-32 bg-surface-container">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20">
+<div class="md:col-span-6">
+<h2 class="font-headline text-5xl font-bold tracking-tight">Liderazgo</h2>
+</div>
+<div class="md:col-span-6">
+<p class="font-body text-lg text-on-surface-variant">Un equipo de ingenieros y visionarios dedicados a elevar el estándar de la industria eléctrica global.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Leader 1 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/5] overflow-hidden bg-surface-container-highest mb-6">
+<img alt="Marcus Thorne - CEO" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Professional headshot of a middle-aged man in a dark tailored suit, minimalist studio background, soft lighting, executive presence" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcJQMwcUNK3sgttoWQ4pU1qd4oK6smaPWV1BgbqjzzWeox26Hlv0yM3UlGm69TjrTMnfYgdB0zNIZtDpoa85wAQxJzvLwSiepqlUAdva6BZY0ufURVS7ZV-k8KD4ZaJc0D_jC92mpv9VLTaG4KeUMiouuFb1x-OLhdNsE5LBFdgMDVZemm3I6e2f0UGVmgGkpGujmgFxof2T93fIPWy9_gy0phfeguMM_oPQpd8q-DUyJMnsut4IPCtRWnGSB43B9M48Quciz14fw_"/>
+</div>
+<h4 class="font-headline text-xl font-bold">Marcus Thorne</h4>
+<span class="font-label text-xs uppercase tracking-widest text-primary">Chief Executive Officer</span>
+</div>
+<!-- Leader 2 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/5] overflow-hidden bg-surface-container-highest mb-6">
+<img alt="Elena Rodriguez - CTO" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Close-up portrait of a professional woman with a confident smile, neutral business attire, bright and airy office background in soft focus" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDY3dJxrYZt9-SDvzX7d6Cbt9b1odbXdgDI5tR3LjZIq677Po5j7_cNRAFPsj7SztgQbVkjxzDcEx6MSF-hZc-p6VgHIeqicf8HmH8F8QcWTE0xFfjX395_63DhleBPnrNWcV1EzQxqW3B0EsRWhyzQrXbRj_MvKZb3V6SAro-GvkHSueYcxSpWuF5otvdgu4xVMCGGEnr0CHZifl9ZTCCu2EONbxIknCla7XI8bToHN4EMMXrd6ztd81auQ_KnFMtGp0UVfmCC8wAR"/>
+</div>
+<h4 class="font-headline text-xl font-bold">Elena Rodriguez</h4>
+<span class="font-label text-xs uppercase tracking-widest text-primary">Chief Technology Officer</span>
+</div>
+<!-- Leader 3 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/5] overflow-hidden bg-surface-container-highest mb-6">
+<img alt="Julian Vance - Design Director" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Stylized portrait of a young male professional, modern creative glasses, dark turtleneck, dramatic lighting on one side of face" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_6ThufRZBKObDcOOHnbvIhVKJYpH5L0uVmO0OB3AwYl33pTebZiMxE9bYPRusiHmtNhNDU0vSwyj-Y3Apn6kUXeRHaAq1HFyGUF6hQBHOx7zNiU_0ailT5ykS7txgjEXynBLrZBhQ0td5fUxAdPwZeMac53u1qiIQtZrecvzcmm9JKz7ldKKeCqOMlyL2O20XbrmAT3VHVuXsRZWomeaHhLJORqwYyeUV_-uBpPgzgLpLw-7G3gEQQ6hL5mKlFBGJLvJ_pByrZoH1"/>
+</div>
+<h4 class="font-headline text-xl font-bold">Julian Vance</h4>
+<span class="font-label text-xs uppercase tracking-widest text-primary">Director of Design</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Call to Action -->
+<section class="py-32 bg-surface">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="bg-primary p-16 md:p-32 relative overflow-hidden flex flex-col items-center text-center">
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<div class="grid grid-cols-12 h-full w-full">
+<div class="border-r border-on-primary h-full"></div><div class="border-r border-on-primary h-full"></div><div class="border-r border-on-primary h-full"></div><div class="border-r border-on-primary h-full"></div><div class="border-r border-on-primary h-full"></div><div class="border-r border-on-primary h-full"></div><div class="border-r border-on-primary h-full"></div><div class="border-r border-on-primary h-full"></div><div class="border-r border-on-primary h-full"></div><div class="border-r border-on-primary h-full"></div><div class="border-r border-on-primary h-full"></div><div class="h-full"></div>
+</div>
+</div>
+<h2 class="font-headline text-4xl md:text-7xl font-bold text-on-primary tracking-tighter mb-12 relative z-10 leading-none">
+                        ¿Listo para el siguiente nivel <br/> de precisión?
+                    </h2>
+<div class="flex flex-col md:flex-row gap-6 relative z-10">
+<button class="bg-on-primary text-primary px-12 py-5 font-bold uppercase tracking-widest hover:opacity-90 active:scale-95 transition-all">
+                            Explorar Productos
+                        </button>
+<button class="border border-on-primary text-on-primary px-12 py-5 font-bold uppercase tracking-widest hover:bg-on-primary/10 active:scale-95 transition-all">
+                            Agendar Consulta
+                        </button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f2f4f6] dark:bg-[#0a0a0a] full-width py-12 px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-screen-2xl mx-auto">
+<div class="space-y-6">
+<div class="text-lg font-bold text-[#2d3338] dark:text-[#f9f9fb] font-['Manrope']">
+                    Rayforce Industrial
+                </div>
+<p class="text-[#2d3338] dark:text-[#acb3b8] font-['Manrope'] text-sm tracking-wide max-w-sm">
+                    Ingeniería de alta gama para industrias que no admiten compromisos.
+                </p>
+<div class="text-[#2d3338] dark:text-[#acb3b8] font-['Manrope'] text-sm tracking-wide">
+                    © 2024 Rayforce Industrial. Precision Engineered.
+                </div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-4">
+<a class="block text-[#2d3338] dark:text-[#acb3b8] hover:text-[#13069f] dark:hover:text-[#4b4dce] transition-colors font-['Manrope'] text-sm tracking-wide" href="#">Privacy Policy</a>
+<a class="block text-[#2d3338] dark:text-[#acb3b8] hover:text-[#13069f] dark:hover:text-[#4b4dce] transition-colors font-['Manrope'] text-sm tracking-wide" href="#">Terms of Service</a>
+</div>
+<div class="space-y-4">
+<a class="block text-[#2d3338] dark:text-[#acb3b8] hover:text-[#13069f] dark:hover:text-[#4b4dce] transition-colors font-['Manrope'] text-sm tracking-wide" href="#">Compliance</a>
+<a class="block text-[#2d3338] dark:text-[#acb3b8] hover:text-[#13069f] dark:hover:text-[#4b4dce] transition-colors font-['Manrope'] text-sm tracking-wide" href="#">Global Offices</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

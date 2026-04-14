@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Project Quotation Atelier | RAYFORCE</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-high": "#e4e9ee",
+              "surface-dim": "#d3dbe2",
+              "secondary": "#5f5f5f",
+              "on-secondary-fixed": "#3f3f3f",
+              "surface-tint": "#4b4dce",
+              "secondary-container": "#e2e2e2",
+              "tertiary-container": "#ced6f5",
+              "tertiary": "#565e78",
+              "primary-fixed-dim": "#d1d0ff",
+              "on-tertiary-container": "#424a63",
+              "secondary-dim": "#535353",
+              "surface-bright": "#f9f9fb",
+              "on-primary": "#faf6ff",
+              "inverse-on-surface": "#9c9d9f",
+              "surface-container-low": "#f2f4f6",
+              "on-secondary-container": "#525252",
+              "inverse-surface": "#0c0e10",
+              "on-tertiary-fixed-variant": "#4b546d",
+              "primary": "#4b4dce",
+              "error-container": "#ff8b9a",
+              "secondary-fixed-dim": "#d4d4d4",
+              "surface-container-highest": "#dde3e9",
+              "on-primary-container": "#3e3fc0",
+              "outline-variant": "#acb3b8",
+              "on-secondary": "#f9f9f9",
+              "secondary-fixed": "#e2e2e2",
+              "on-primary-fixed-variant": "#484acb",
+              "tertiary-fixed": "#ced6f5",
+              "background": "#f9f9fb",
+              "inverse-primary": "#8083ff",
+              "surface-container-lowest": "#ffffff",
+              "outline": "#757c81",
+              "primary-fixed": "#e1e0ff",
+              "surface-container": "#ebeef2",
+              "primary-container": "#e1e0ff",
+              "primary-dim": "#3f3fc1",
+              "tertiary-fixed-dim": "#c0c8e6",
+              "on-error-container": "#782232",
+              "on-error": "#fff7f7",
+              "on-tertiary": "#f9f8ff",
+              "surface-variant": "#dde3e9",
+              "on-surface-variant": "#596065",
+              "on-secondary-fixed-variant": "#5b5b5b",
+              "on-background": "#2d3338",
+              "error-dim": "#4f0116",
+              "on-primary-fixed": "#2927ae",
+              "tertiary-dim": "#4a536b",
+              "surface": "#f9f9fb",
+              "on-surface": "#2d3338",
+              "on-tertiary-fixed": "#2f374f",
+              "error": "#9e3f4e"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Manrope"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        vertical-align: middle;
+      }
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#f9f9fb]/70 backdrop-blur-xl shadow-[0_40px_40px_-15px_rgba(0,0,0,0.06)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-[1440px] mx-auto w-full">
+<div class="font-['Manrope'] text-2xl font-black tracking-tighter text-[#13069f]">
+                RAYFORCE
+            </div>
+<div class="hidden md:flex items-center space-x-10">
+<a class="font-['Manrope'] tracking-tight font-medium text-sm text-[#2d3338] hover:text-[#13069f] transition-colors" href="#">Projects</a>
+<a class="font-['Manrope'] tracking-tight font-medium text-sm text-[#2d3338] hover:text-[#13069f] transition-colors" href="#">Services</a>
+<a class="font-['Manrope'] tracking-tight font-medium text-sm text-[#2d3338] hover:text-[#13069f] transition-colors" href="#">Technical Specs</a>
+<a class="font-['Manrope'] tracking-tight font-medium text-sm text-[#2d3338] hover:text-[#13069f] transition-colors" href="#">Consultation</a>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden lg:flex items-center bg-surface-container-low px-4 py-2 rounded-full group transition-all focus-within:ring-1 focus-within:ring-primary/30">
+<span class="material-symbols-outlined text-outline text-sm">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm font-label placeholder:text-outline-variant w-48" placeholder="Search components..." type="text"/>
+</div>
+<button class="scale-95 active:opacity-80 transition-transform bg-primary text-on-primary px-6 py-2.5 rounded-md font-label text-[11px] font-bold uppercase tracking-widest">
+                    Request Quote
+                </button>
+</div>
+</div>
+</nav>
+<main class="pt-32 pb-20">
+<!-- Hero Section -->
+<section class="max-w-[1440px] mx-auto px-8 mb-24 grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+<div class="md:col-span-8">
+<span class="font-label text-[10px] font-bold tracking-[0.3em] text-primary mb-6 block uppercase">Engineering Intelligence</span>
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold tracking-tighter text-on-background leading-[0.95]">
+                    Project <br/>
+<span class="text-[#13069f]">Quotation</span> Atelier
+                </h1>
+<p class="mt-8 font-body text-lg text-on-surface-variant max-w-xl leading-relaxed">
+                    Collaborative engineering for large-scale infrastructure. Transform architectural vision into technical reality with precision-manufactured hardware and electrical systems.
+                </p>
+</div>
+<div class="md:col-span-4 flex justify-end">
+<div class="w-full aspect-square bg-surface-container relative overflow-hidden rounded-xl">
+<img alt="Technical Drawing" class="w-full h-full object-cover mix-blend-multiply opacity-80" data-alt="high-angle architectural blueprint on a clean white desk with industrial measuring tools and professional lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzTZGNJNjtG3Awb6ZbDm3HMyGY4SUwKsv1qzI6cx5-6GbmRqAFJtcATI-70HAg-hzmrHpoRz79m2gM_4G6U_Qz_0x7fPO3crvRsitNiBMO6fB2IEOpqAMYcJL1PXpBmeEhzkerhu3ImNAh17EKQuGiE29FXHXsADhJFDTvR8wm6Eqlu5xE_tG4mw0got8ps0Hh4qma10xsS1mEJc5anyDv6pYr273oAXAdZ16l_dge00M5izizddbRSroiDt1vPAVhGQBz5IRj0NL6"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+</div>
+</div>
+</section>
+<!-- Trust Bar -->
+<section class="max-w-[1440px] mx-auto px-8 mb-24">
+<div class="bg-surface-container-low py-6 px-10 rounded-xl flex flex-col md:flex-row justify-between items-center gap-8 border-l-4 border-primary">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">verified</span>
+<div>
+<p class="font-label text-[10px] font-bold uppercase tracking-wider text-outline">Compliance</p>
+<p class="font-headline font-bold text-on-surface">Rayforce Engineering Standards</p>
+</div>
+</div>
+<div class="h-px md:h-8 w-full md:w-px bg-outline-variant/30"></div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">public</span>
+<div>
+<p class="font-label text-[10px] font-bold uppercase tracking-wider text-outline">Network</p>
+<p class="font-headline font-bold text-on-surface">Global Logistics Support</p>
+</div>
+</div>
+<div class="h-px md:h-8 w-full md:w-px bg-outline-variant/30"></div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">precision_manufacturing</span>
+<div>
+<p class="font-label text-[10px] font-bold uppercase tracking-wider text-outline">Assurance</p>
+<p class="font-headline font-bold text-on-surface">Precision Component Matching</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Quotation Form Section -->
+<section class="max-w-[1440px] mx-auto px-8 grid grid-cols-1 lg:grid-cols-12 gap-16">
+<!-- Technical Guidance Side -->
+<div class="lg:col-span-4 space-y-12">
+<div class="sticky top-32">
+<h3 class="font-headline text-2xl font-bold tracking-tight mb-4">Assessment Scope</h3>
+<p class="font-body text-on-surface-variant mb-8 text-sm leading-relaxed">
+                        Our technical atelier reviews every submission manually. Expect a detailed breakdown of electrical components, structural fastening systems, and integrated hardware within 48 business hours.
+                    </p>
+<ul class="space-y-6">
+<li class="flex gap-4">
+<span class="text-primary font-bold font-label">01</span>
+<div>
+<h4 class="font-headline font-bold text-sm">Professional Verification</h4>
+<p class="text-xs text-on-surface-variant mt-1">We require professional credentials to ensure engineering precision and compliance with local codes.</p>
+</div>
+</li>
+<li class="flex gap-4">
+<span class="text-primary font-bold font-label">02</span>
+<div>
+<h4 class="font-headline font-bold text-sm">Technical Blueprints</h4>
+<p class="text-xs text-on-surface-variant mt-1">CAD or BIM files are preferred for accurate component quantities and stress-load calculations.</p>
+</div>
+</li>
+<li class="flex gap-4">
+<span class="text-primary font-bold font-label">03</span>
+<div>
+<h4 class="font-headline font-bold text-sm">Strategic Consultation</h4>
+<p class="text-xs text-on-surface-variant mt-1">Your preferred call time allows our lead engineer to discuss material substitutions and lead times.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<!-- Form Content -->
+<div class="lg:col-span-8">
+<form class="space-y-16">
+<!-- Section: Professional Identity -->
+<div class="group">
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-headline text-xs font-black uppercase tracking-[0.2em] text-outline">Professional Identity</h2>
+<span class="h-px flex-grow ml-6 bg-surface-container-high"></span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-2">
+<label class="font-label text-[10px] font-bold uppercase text-on-surface-variant tracking-wider">Full Legal Name</label>
+<input class="w-full bg-surface-container-low border-none rounded-sm px-4 py-3 text-sm focus:ring-1 focus:ring-primary transition-all" placeholder="e.g. Elena Rossi" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="font-label text-[10px] font-bold uppercase text-on-surface-variant tracking-wider">Company / Firm</label>
+<input class="w-full bg-surface-container-low border-none rounded-sm px-4 py-3 text-sm focus:ring-1 focus:ring-primary transition-all" placeholder="Studio Atelier" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="font-label text-[10px] font-bold uppercase text-on-surface-variant tracking-wider">Professional License (Cédula)</label>
+<input class="w-full bg-surface-container-low border-none rounded-sm px-4 py-3 text-sm focus:ring-1 focus:ring-primary transition-all" placeholder="ID-8829-X" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="font-label text-[10px] font-bold uppercase text-on-surface-variant tracking-wider">Email Address</label>
+<input class="w-full bg-surface-container-low border-none rounded-sm px-4 py-3 text-sm focus:ring-1 focus:ring-primary transition-all" placeholder="contact@firm.com" type="email"/>
+</div>
+</div>
+</div>
+<!-- Section: Project Parameters -->
+<div>
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-headline text-xs font-black uppercase tracking-[0.2em] text-outline">Project Parameters</h2>
+<span class="h-px flex-grow ml-6 bg-surface-container-high"></span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="space-y-2">
+<label class="font-label text-[10px] font-bold uppercase text-on-surface-variant tracking-wider">Project Type</label>
+<select class="w-full bg-surface-container-low border-none rounded-sm px-4 py-3 text-sm focus:ring-1 focus:ring-primary transition-all appearance-none">
+<option>Residential</option>
+<option>Industrial</option>
+<option>Commercial</option>
+<option>Infrastructure</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="font-label text-[10px] font-bold uppercase text-on-surface-variant tracking-wider">Estimated Area (m²)</label>
+<input class="w-full bg-surface-container-low border-none rounded-sm px-4 py-3 text-sm focus:ring-1 focus:ring-primary transition-all" placeholder="2,500" type="number"/>
+</div>
+<div class="space-y-2">
+<label class="font-label text-[10px] font-bold uppercase text-on-surface-variant tracking-wider">Location</label>
+<input class="w-full bg-surface-container-low border-none rounded-sm px-4 py-3 text-sm focus:ring-1 focus:ring-primary transition-all" placeholder="City, Country" type="text"/>
+</div>
+</div>
+</div>
+<!-- Section: Technical Dossier -->
+<div>
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-headline text-xs font-black uppercase tracking-[0.2em] text-outline">Technical Dossier</h2>
+<span class="h-px flex-grow ml-6 bg-surface-container-high"></span>
+</div>
+<div class="space-y-8">
+<div class="space-y-2">
+<label class="font-label text-[10px] font-bold uppercase text-on-surface-variant tracking-wider">Technical Specifications &amp; Materials</label>
+<textarea class="w-full bg-surface-container-low border-none rounded-sm px-4 py-4 text-sm focus:ring-1 focus:ring-primary transition-all resize-none" placeholder="Specify load requirements, electrical load peaks, or specific material grade constraints..." rows="5"></textarea>
+</div>
+<div class="space-y-2">
+<label class="font-label text-[10px] font-bold uppercase text-on-surface-variant tracking-wider">Upload CAD/Blueprints</label>
+<div class="border-2 border-dashed border-outline-variant/30 bg-surface-container-lowest rounded-md p-12 text-center group hover:border-primary/50 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-4xl text-outline-variant mb-4 group-hover:text-primary transition-colors">upload_file</span>
+<p class="font-headline font-bold text-on-surface text-sm">Drag files here or click to upload</p>
+<p class="font-label text-[10px] text-outline-variant mt-2">Accepted formats: .DWG, .DXF, .PDF, .RVT (Max 50MB)</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Section: Final Coordination -->
+<div class="bg-surface-container-low p-8 rounded-xl">
+<div class="flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="space-y-2 flex-grow">
+<label class="font-label text-[10px] font-bold uppercase text-on-surface-variant tracking-wider">Preferred Technical Call Window</label>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-2">
+<button class="bg-white border border-outline-variant/20 py-2 rounded text-[10px] font-bold uppercase tracking-tight hover:border-primary hover:text-primary transition-all" type="button">08:00 - 10:00</button>
+<button class="bg-white border border-outline-variant/20 py-2 rounded text-[10px] font-bold uppercase tracking-tight hover:border-primary hover:text-primary transition-all" type="button">10:00 - 12:00</button>
+<button class="bg-primary text-white py-2 rounded text-[10px] font-bold uppercase tracking-tight" type="button">14:00 - 16:00</button>
+<button class="bg-white border border-outline-variant/20 py-2 rounded text-[10px] font-bold uppercase tracking-tight hover:border-primary hover:text-primary transition-all" type="button">16:00 - 18:00</button>
+</div>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-outline-variant/10 flex flex-col md:flex-row items-center justify-between gap-6">
+<p class="text-[10px] text-on-surface-variant uppercase tracking-widest max-w-xs font-label">
+                                By submitting, you agree to our Engineering Disclosure Policy.
+                            </p>
+<button class="w-full md:w-auto px-10 py-5 bg-[#13069f] text-on-primary font-headline font-extrabold text-sm uppercase tracking-widest rounded shadow-2xl shadow-primary/20 hover:translate-y-[-2px] transition-all active:scale-95" type="submit">
+                                Request Technical Assessment
+                            </button>
+</div>
+</div>
+</form>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-20 bg-[#f2f4f6] dark:bg-[#0a0a0a]">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-12 py-16 border-t border-[#acb3b8]/15">
+<div>
+<div class="text-[#13069f] dark:text-[#4b4dce] font-black font-headline text-xl mb-6">RAYFORCE TECHNICAL ATELIER</div>
+<div class="font-['Inter'] uppercase tracking-widest text-[10px] font-bold text-[#5a6268] dark:text-[#888]">
+                    © 2024 RAYFORCE TECHNICAL ATELIER. PRECISION ENGINEERED.
+                </div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex flex-col gap-3">
+<a class="font-['Inter'] uppercase tracking-widest text-[10px] font-bold text-[#5a6268] hover:text-[#13069f] transition-colors" href="#">Privacy Policy</a>
+<a class="font-['Inter'] uppercase tracking-widest text-[10px] font-bold text-[#5a6268] hover:text-[#13069f] transition-colors" href="#">Terms of Service</a>
+</div>
+<div class="flex flex-col gap-3">
+<a class="font-['Inter'] uppercase tracking-widest text-[10px] font-bold text-[#5a6268] hover:text-[#13069f] transition-colors" href="#">Engineering Standards</a>
+<a class="font-['Inter'] uppercase tracking-widest text-[10px] font-bold text-[#5a6268] hover:text-[#13069f] transition-colors" href="#">Global Offices</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

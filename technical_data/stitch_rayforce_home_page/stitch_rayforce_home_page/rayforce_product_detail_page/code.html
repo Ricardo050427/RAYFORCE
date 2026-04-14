@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "error": "#9e3f4e",
+              "tertiary-fixed": "#ced6f5",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-high": "#e4e9ee",
+              "primary-dim": "#3f3fc1",
+              "on-tertiary-fixed": "#2f374f",
+              "on-secondary-container": "#525252",
+              "surface-container-low": "#f2f4f6",
+              "tertiary-container": "#ced6f5",
+              "surface-container": "#ebeef2",
+              "primary-fixed": "#e1e0ff",
+              "tertiary": "#565e78",
+              "on-tertiary": "#f9f8ff",
+              "secondary-fixed": "#e2e2e2",
+              "surface-dim": "#d3dbe2",
+              "error-dim": "#4f0116",
+              "inverse-on-surface": "#9c9d9f",
+              "on-surface-variant": "#596065",
+              "on-primary-fixed": "#2927ae",
+              "inverse-surface": "#0c0e10",
+              "surface-variant": "#dde3e9",
+              "secondary-fixed-dim": "#d4d4d4",
+              "on-secondary": "#f9f9f9",
+              "on-tertiary-fixed-variant": "#4b546d",
+              "outline": "#757c81",
+              "on-tertiary-container": "#424a63",
+              "on-error-container": "#782232",
+              "on-error": "#fff7f7",
+              "on-secondary-fixed": "#3f3f3f",
+              "error-container": "#ff8b9a",
+              "surface": "#f9f9fb",
+              "inverse-primary": "#8083ff",
+              "primary-container": "#e1e0ff",
+              "on-surface": "#2d3338",
+              "tertiary-fixed-dim": "#c0c8e6",
+              "secondary": "#5f5f5f",
+              "primary-fixed-dim": "#d1d0ff",
+              "on-primary-fixed-variant": "#484acb",
+              "surface-container-highest": "#dde3e9",
+              "outline-variant": "#acb3b8",
+              "tertiary-dim": "#4a536b",
+              "secondary-container": "#e2e2e2",
+              "primary": "#4b4dce",
+              "on-secondary-fixed-variant": "#5b5b5b",
+              "secondary-dim": "#535353",
+              "on-background": "#2d3338",
+              "on-primary-container": "#3e3fc0",
+              "surface-tint": "#4b4dce",
+              "on-primary": "#faf6ff",
+              "surface-bright": "#f9f9fb",
+              "background": "#f9f9fb"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Manrope"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 bg-[#f9f9fb]/70 dark:bg-slate-950/70 backdrop-blur-xl">
+<nav class="flex justify-between items-center px-8 py-4 max-w-[1440px] mx-auto">
+<div class="text-2xl font-black tracking-tighter text-[#13069f] dark:text-white uppercase font-headline">
+                RAYFORCE
+            </div>
+<div class="hidden md:flex space-x-8">
+<a class="text-[#13069f] dark:text-white border-b border-[#13069f] pb-1 font-manrope tracking-tight font-bold uppercase text-sm" href="#">Catalog</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#13069f] transition-colors font-manrope tracking-tight font-bold uppercase text-sm" href="#">Solutions</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#13069f] transition-colors font-manrope tracking-tight font-bold uppercase text-sm" href="#">Technical Hub</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-[#13069f] transition-colors font-manrope tracking-tight font-bold uppercase text-sm" href="#">Projects</a>
+</div>
+<div class="flex items-center space-x-6">
+<button class="material-symbols-outlined text-on-surface-variant hover:bg-[#f2f4f6] p-2 transition-all">shopping_cart</button>
+<button class="material-symbols-outlined text-on-surface-variant hover:bg-[#f2f4f6] p-2 transition-all">person</button>
+</div>
+</nav>
+</header>
+<main class="pt-32 pb-24 max-w-[1440px] mx-auto px-8">
+<!-- Product Hero Section -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-24 items-start">
+<!-- Left: Product Visualization -->
+<div class="lg:col-span-7 bg-surface-container-low p-12 flex items-center justify-center min-h-[600px]">
+<img alt="Industrial Drill XR-500" class="max-w-full h-auto object-contain mix-blend-multiply" data-alt="Sleek high-tech industrial power drill on a clean grey background with cinematic studio lighting and metallic finish details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1mc-Dy6oxK7AzYdOopdiq5mj57ftW0E2ZKoPQQhnwfAh1USl0BnG-w23_YzLvV_wshRkGwuP0r6Wk_Cudei70oyb8DNb2DfgAsQZRxbIZjFDufSdDIQ8XLdxi2F4O6uGhrN2365VG4Us7ejt4eQflbMVDezDv90p7nTY2ufo18B4TKb6KCdNu2z2_VbWbg1onhueTUWRDl7uTdyHSkjdYPAOGgHvOwsoiMBKsfJ6_Bk2dUHJ72tSiTd2zgr2yjLXiFGic3QBsw5zD"/>
+</div>
+<!-- Right: Product Information -->
+<div class="lg:col-span-5 flex flex-col pt-4">
+<span class="font-label text-xs tracking-[0.15em] uppercase text-outline mb-4">Precision Series / Drilling</span>
+<h1 class="font-headline text-5xl font-extrabold tracking-tighter text-on-surface mb-6 leading-tight">Industrial Drill XR-500</h1>
+<div class="flex items-baseline space-x-4 mb-8">
+<span class="text-4xl font-headline font-bold text-[#13069f]">$1,249.00</span>
+<span class="font-label text-sm text-outline-variant uppercase">SKU: RF-XR500-2024</span>
+</div>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-10 font-body">
+                    The XR-500 represents the pinnacle of torque-controlled precision engineering. Designed for aerospace and heavy automotive assembly, it features a brushless digital drive system that monitors thermal load in real-time.
+                </p>
+<div class="space-y-4 mb-12">
+<button class="w-full bg-[#13069f] text-white py-5 px-8 font-headline font-bold uppercase tracking-widest text-sm flex items-center justify-center space-x-3 hover:bg-primary-dim transition-all active:scale-95 duration-200">
+<span>Add to Cart</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+<button class="w-full bg-white border border-outline-variant/30 text-on-surface py-5 px-8 font-headline font-bold uppercase tracking-widest text-sm hover:bg-surface-container-low transition-all">
+                        Request Quote for Volume
+                    </button>
+</div>
+<!-- Quick Technical Highlights -->
+<div class="grid grid-cols-2 gap-px bg-outline-variant/10">
+<div class="bg-surface py-4 pr-4">
+<span class="font-label text-[10px] uppercase tracking-wider text-outline block mb-1">Max Torque</span>
+<span class="font-headline font-bold text-on-surface">500 Nm</span>
+</div>
+<div class="bg-surface py-4 pl-4">
+<span class="font-label text-[10px] uppercase tracking-wider text-outline block mb-1">Input Power</span>
+<span class="font-headline font-bold text-on-surface">1.2 kW</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Specifications Section -->
+<section class="mb-32">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<h2 class="font-headline text-3xl font-extrabold tracking-tight mb-2 uppercase">Technical Specifications</h2>
+<div class="h-1 w-12 bg-[#13069f]"></div>
+</div>
+<div class="text-outline font-label text-sm uppercase tracking-widest">Engineering Reference: v2.4.0</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-16 border-t border-outline-variant/10 pt-12">
+<div class="space-y-6">
+<div>
+<span class="font-label text-xs uppercase text-primary font-bold tracking-widest block mb-2">Electrical Output</span>
+<div class="flex justify-between border-b border-outline-variant/10 pb-2">
+<span class="text-on-surface-variant font-body">Operating Voltage</span>
+<span class="text-on-surface font-bold">220-240V AC</span>
+</div>
+</div>
+<div class="flex justify-between border-b border-outline-variant/10 pb-2">
+<span class="text-on-surface-variant font-body">Nominal Frequency</span>
+<span class="text-on-surface font-bold">50/60 Hz</span>
+</div>
+<div class="flex justify-between border-b border-outline-variant/10 pb-2">
+<span class="text-on-surface-variant font-body">Peak Wattage</span>
+<span class="text-on-surface font-bold">1800W</span>
+</div>
+</div>
+<div class="space-y-6">
+<div>
+<span class="font-label text-xs uppercase text-primary font-bold tracking-widest block mb-2">Mechanical Performance</span>
+<div class="flex justify-between border-b border-outline-variant/10 pb-2">
+<span class="text-on-surface-variant font-body">Gear Mechanism</span>
+<span class="text-on-surface font-bold">Triple Planetary</span>
+</div>
+</div>
+<div class="flex justify-between border-b border-outline-variant/10 pb-2">
+<span class="text-on-surface-variant font-body">Speed Range</span>
+<span class="text-on-surface font-bold">0-3500 RPM</span>
+</div>
+<div class="flex justify-between border-b border-outline-variant/10 pb-2">
+<span class="text-on-surface-variant font-body">Chuck Capacity</span>
+<span class="text-on-surface font-bold">13 mm Keyless</span>
+</div>
+</div>
+<div class="space-y-6">
+<div>
+<span class="font-label text-xs uppercase text-primary font-bold tracking-widest block mb-2">Compliance &amp; Safety</span>
+<div class="flex justify-between border-b border-outline-variant/10 pb-2">
+<span class="text-on-surface-variant font-body">IP Rating</span>
+<span class="text-on-surface font-bold">IP54</span>
+</div>
+</div>
+<div class="flex justify-between border-b border-outline-variant/10 pb-2">
+<span class="text-on-surface-variant font-body">Certification</span>
+<span class="text-on-surface font-bold">CE, UL, RoHS</span>
+</div>
+<div class="flex justify-between border-b border-outline-variant/10 pb-2">
+<span class="text-on-surface-variant font-body">Warranty</span>
+<span class="text-on-surface font-bold">5 Year Industrial</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Complete Your Setup Section -->
+<section>
+<div class="mb-12">
+<h3 class="font-headline text-2xl font-extrabold tracking-tight uppercase mb-8">Complete your setup</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Related Item 1 -->
+<div class="group cursor-pointer">
+<div class="bg-surface-container p-8 mb-4 flex items-center justify-center aspect-square transition-all group-hover:bg-surface-container-highest">
+<img alt="Reinforced Drill Bits" class="w-3/4 grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Macro photography of professional grade titanium-coated drill bits arranged in a minimalist industrial sequence" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKK5KoaVY7bLKuMGwaoXp4KJwaQouzq3g7xp2pOGnswW9irv5lbRt1-i2GIKM2jQYppEI8vYDyq_fZ8gbW5gS-sbkCl77HI-wjHgy_gakqgdv8G0RKZL_BQe49-9AyD-8jL5ZjCwGvorFJQU9IjjQ8lqrvLQ_HA6y0cNFE3TAZlK31CcPMJsRT8TlcQdXdKY1x6rxkHN786g5B4s_mlOfDAwbvP24Y1j7Sc3gVjJ5_0iR8aHlaNLBRHL2ENtOsdko2FVI3BWhTpWG3"/>
+</div>
+<h4 class="font-headline font-bold text-on-surface uppercase text-sm tracking-tight mb-1">Titanium Bit Set Pro</h4>
+<p class="font-label text-xs text-outline mb-3">$185.00</p>
+<button class="text-[#13069f] font-headline font-bold uppercase text-[10px] tracking-widest border-b border-transparent hover:border-[#13069f] pb-1 transition-all">Add to kit</button>
+</div>
+<!-- Related Item 2 -->
+<div class="group cursor-pointer">
+<div class="bg-surface-container p-8 mb-4 flex items-center justify-center aspect-square transition-all group-hover:bg-surface-container-highest">
+<img alt="Power Cable" class="w-3/4 grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="High-grade industrial orange power extension cable with heavy-duty connectors on a neutral studio background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOKQhzqJk9Asv_R6m0YlZQ0Vwh4ArSpJnDamhmIl1VwAnAmIlgUoN7hTtut5MeT4376kjHjPvggSAKhOnf0Cc-t_v3ZyAavoGRg0wgF6ag-NU7gF3wnff5WjJ1ZYTFyg79BIfzkuFG1d5NERtExUE_BkqYj4SVR8K0f69Olg_aAz6-2vt-BBUlxvd4-ZRjIbgQmLa6tvhvdbbskAVcLcHWX8XTKsDiQxhtDJa-WnJb-DKqdlq618BcbfWfLSGGxSi4rKLS-bfYJHUN"/>
+</div>
+<h4 class="font-headline font-bold text-on-surface uppercase text-sm tracking-tight mb-1">Braided Heavy-Duty Cable</h4>
+<p class="font-label text-xs text-outline mb-3">$89.00</p>
+<button class="text-[#13069f] font-headline font-bold uppercase text-[10px] tracking-widest border-b border-transparent hover:border-[#13069f] pb-1 transition-all">Add to kit</button>
+</div>
+<!-- Related Item 3 -->
+<div class="group cursor-pointer">
+<div class="bg-surface-container p-8 mb-4 flex items-center justify-center aspect-square transition-all group-hover:bg-surface-container-highest">
+<img alt="Safety Helmet" class="w-3/4 grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Matte black modern industrial safety helmet with integrated eye protection visors and sleek aerodynamic design" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAg3Uj4ZEJnnBJc0kya7UK2KS555UFFqqbvDv4QBMU-7h0m6dy6Koh63XU1aJbegsf2rnJ0bbo5huTRlsco-kxCFkBDqS52Lhkg3Z4CbVc1cxuztgFFW9WsoR_19puZxqcyONyNAMDJdOUds51NmpEQDOEHtORNx0rVfbXe4QPnonsqJroRbMDaOc-3eYcgRTtED2C2R5vEi3wE5L4zl6qzd2UIKshHanWfk4SEnyTLaYq8fpbaT1yMH8CDi0_SglWuB6F7qw_1ceOB"/>
+</div>
+<h4 class="font-headline font-bold text-on-surface uppercase text-sm tracking-tight mb-1">Volt Guard Helmet V2</h4>
+<p class="font-label text-xs text-outline mb-3">$210.00</p>
+<button class="text-[#13069f] font-headline font-bold uppercase text-[10px] tracking-widest border-b border-transparent hover:border-[#13069f] pb-1 transition-all">Add to kit</button>
+</div>
+<!-- Related Item 4 -->
+<div class="group cursor-pointer">
+<div class="bg-surface-container p-8 mb-4 flex items-center justify-center aspect-square transition-all group-hover:bg-surface-container-highest">
+<img alt="Magnetic Level" class="w-3/4 grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Professional grade digital magnetic level tool with blue LED display on a brushed aluminum surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2lrXlLPHT21L4udEUUJQXfkJd8Hi1-31HMpOb6RRaplx8C-I1vNZe5AIfVZqpj-oRdkOBq11iA8Ha27J9xX0m_j8VgU0MaOmjP_IjPJY_1LJck95kRMjq2hw2DE3oSSysIM70k8Y-yLSfkrRlt29anKKm2R-lChACq2PIV85gGUPGXJQq9cuZypnu_vu_fZtO4naSBlGZblMb7NvpbFrjGnpPaQeW_KA3o9o16vOmN2r2HL0olbnYFWH8hi6zfoOIglXM-AZO5aS5"/>
+</div>
+<h4 class="font-headline font-bold text-on-surface uppercase text-sm tracking-tight mb-1">Precision Digital Level</h4>
+<p class="font-label text-xs text-outline mb-3">$145.00</p>
+<button class="text-[#13069f] font-headline font-bold uppercase text-[10px] tracking-widest border-b border-transparent hover:border-[#13069f] pb-1 transition-all">Add to kit</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#f2f4f6] dark:bg-slate-950 w-full py-12 px-8 border-t border-slate-200/10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-between items-center w-full max-w-[1440px] mx-auto">
+<div class="text-lg font-bold text-slate-900 dark:text-white mb-6 lg:mb-0">
+                RAYFORCE
+            </div>
+<div class="flex flex-wrap gap-8 mb-6 lg:mb-0">
+<a class="font-manrope text-[11px] tracking-[0.05em] uppercase font-semibold text-slate-500 dark:text-slate-400 hover:text-[#13069f] transition-colors" href="#">Technical Documentation</a>
+<a class="font-manrope text-[11px] tracking-[0.05em] uppercase font-semibold text-slate-500 dark:text-slate-400 hover:text-[#13069f] transition-colors" href="#">Compliance</a>
+<a class="font-manrope text-[11px] tracking-[0.05em] uppercase font-semibold text-slate-500 dark:text-slate-400 hover:text-[#13069f] transition-colors" href="#">Sustainability</a>
+<a class="font-manrope text-[11px] tracking-[0.05em] uppercase font-semibold text-slate-500 dark:text-slate-400 hover:text-[#13069f] transition-colors" href="#">Global Logistics</a>
+</div>
+<div class="font-manrope text-[11px] tracking-[0.05em] uppercase font-semibold text-slate-400">
+                © 2024 RAYFORCE INDUSTRIAL. ALL RIGHTS RESERVED.
+            </div>
+</div>
+</footer>
+</body></html>

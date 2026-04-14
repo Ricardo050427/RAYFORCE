@@ -1,0 +1,17 @@
+﻿commit 34ea6a56ab72efeb00d00d49313e9392ed9fd20d
+Author: Hernandez Astorga Francisco Ricardo <hernandezastorgafrancisco@gmail.com>
+Date:   Fri Apr 10 05:47:37 2026 -0700
+
+    Rename rayforce_preguntas to rayforce_preguntas.md
+
+commit 863beaccbecea5f087f0b4c37a70395e45a86869
+Author: Hernandez Astorga Francisco Ricardo <hernandezastorgafrancisco@gmail.com>
+Date:   Fri Apr 10 05:45:58 2026 -0700
+
+    Add files via upload
+
+commit 827830b5f4834c6a1110f411fd8f2b469d627d12
+Author: Hernandez Astorga Francisco Ricardo <hernandezastorgafrancisco@gmail.com>
+Date:   Thu Mar 26 10:59:51 2026 -0700
+
+    Initial commit

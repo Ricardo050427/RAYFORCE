@@ -1,0 +1,74 @@
+﻿interactive rebase in progress; onto 34ea6a5
+Last command done (1 command done):
+   pick 2107e99 # Initial commit for RAYFORCE
+No commands remaining.
+You are currently rebasing branch 'main' on '34ea6a5'.
+  (fix conflicts and then run "git rebase --continue")
+  (use "git rebase --skip" to skip this patch)
+  (use "git rebase --abort" to check out the original branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .gitignore
+	new file:   DOCUMENTO DE ESPECIFICACIONES (1).pdf
+	new file:   PRODUCTOS ACTIVOS.xlsx
+	new file:   actualizar_nombres.py
+	new file:   check_names.py
+	new file:   especificaciones.txt
+	new file:   extraer_datos_truper.py
+	new file:   extraer_imagenes_adicionales.py
+	new file:   inventario.csv
+	new file:   mvp_woocommerce.csv
+	new file:   package-lock.json
+	new file:   package.json
+	new file:   productos_rayforce.xlsx
+	new file:   prueba.py
+	new file:   rayforce-frontend/.gitignore
+	new file:   rayforce-frontend/AGENTS.md
+	new file:   rayforce-frontend/CLAUDE.md
+	new file:   rayforce-frontend/README.md
+	new file:   rayforce-frontend/app/carrito/page.tsx
+	new file:   rayforce-frontend/app/checkout/page.tsx
+	new file:   rayforce-frontend/app/contacto/page.tsx
+	new file:   rayforce-frontend/app/cotizar/page.tsx
+	new file:   rayforce-frontend/app/cuenta/page.tsx
+	new file:   rayforce-frontend/app/globals.css
+	new file:   rayforce-frontend/app/layout.tsx
+	new file:   rayforce-frontend/app/legales/devoluciones/page.tsx
+	new file:   rayforce-frontend/app/legales/privacidad/page.tsx
+	new file:   rayforce-frontend/app/legales/terminos/page.tsx
+	new file:   rayforce-frontend/app/nosotros/page.tsx
+	new file:   rayforce-frontend/app/page.tsx
+	new file:   rayforce-frontend/app/servicios/page.tsx
+	new file:   rayforce-frontend/app/tienda/[slug]/page.tsx
+	new file:   rayforce-frontend/app/tienda/page.tsx
+	new file:   rayforce-frontend/components/AddToCartButton.tsx
+	new file:   rayforce-frontend/components/Footer.tsx
+	new file:   rayforce-frontend/components/Header.tsx
+	new file:   rayforce-frontend/components/ProductCard.tsx
+	new file:   rayforce-frontend/components/ProductGallery.tsx
+	new file:   rayforce-frontend/components/WhatsAppButton.tsx
+	new file:   rayforce-frontend/data/images.json
+	new file:   rayforce-frontend/lib/cart.tsx
+	new file:   rayforce-frontend/lib/woocommerce.ts
+	new file:   rayforce-frontend/next.config.ts
+	new file:   rayforce-frontend/package-lock.json
+	new file:   rayforce-frontend/package.json
+	new file:   rayforce-frontend/server.js
+	new file:   rayforce-frontend/tsconfig.json
+	new file:   read_pdf.py
+	new file:   setup_env.py
+	new file:   test_ssh.js
+	new file:   test_urls.py
+	new file:   woocommerce_final.xlsx
+	new file:   woocommerce_listo_para_subir.csv
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+	both added:      woocommerce_final.csv
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	status.txt
+
