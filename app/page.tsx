@@ -9,7 +9,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-8 w-full grid md:grid-cols-2 gap-12 items-center pt-20">
           <div className="z-10 space-y-8">
             <div className="inline-flex items-center px-3 py-1 bg-primary-container text-primary rounded-full">
-              <span className="text-[10px] font-bold uppercase tracking-widest font-label">Nueva Colección Industrial 2024</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest font-label">Nueva Colección Industrial 2026</span>
             </div>
             <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] text-on-surface">
               Soluciones <span className="text-primary">eléctricas</span> y de ferretería en un solo lugar.
@@ -28,9 +28,9 @@ export default function Home() {
           </div>
           <div className="relative group h-full py-12">
             <div className="absolute inset-0 bg-primary/5 rounded-3xl -rotate-3 scale-105 group-hover:rotate-0 transition-transform duration-700"></div>
-            <img 
-              alt="Electrical Components" 
-              className="relative rounded-2xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 object-cover aspect-[4/5] w-full" 
+            <img
+              alt="Electrical Components"
+              className="relative rounded-2xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 object-cover aspect-[4/5] w-full"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNGD-_RDH3dP2Pz11rBhUhFV_JGXhzAiKaXOgKLxqvJT298v4slo1sgWVfyB7uf2a4b5KsCyRH5AQT5DpQUzGytbppEvcxxmyzgYadqWUqF_N61G5-RZfezCpyO5XSyYyBqavSMCruQiSTNmpUoXaWU330QX__pKSb5CK7kIa_vYhZqwzXfk1st8M6EeUlk49JaPesGQx_MWca8RBYXWnbC2jdBet7CxZ02EgnIejctlUCghjZQ8gYqI8cr-_xtFKr7QXp89WTd7ZU"
             />
           </div>
@@ -49,7 +49,7 @@ export default function Home() {
             </div>
             <Link className="text-primary font-bold border-b-2 border-primary/20 hover:border-primary transition-all pb-1 font-label text-sm" href="/categorias">Ver todas las líneas</Link>
           </div>
-          
+
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Category Card 1 */}
             <Link href="/categorias/electrico" className="group relative aspect-square bg-surface-container-lowest rounded-xl overflow-hidden hover:bg-primary transition-colors duration-500 block">
@@ -122,9 +122,9 @@ export default function Home() {
             {/* Product 1 */}
             <div className="group">
               <div className="relative aspect-square mb-6 overflow-hidden bg-surface-container-highest rounded-xl">
-                <img 
-                  alt="High Torque Drill" 
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                <img
+                  alt="High Torque Drill"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5m6TvDtLmWkqOqzgcMu7-YwxQ0COEW_ZxabLhHh_K9fAJWbquPwIeYxjQXL17aidSKW7JAoogQBEGLcXDSBXGaYmev64zgDrI3xFaShViRGlJwF0orEcrywI8obqVCq1pWro2Za7cJVtE1dOWrLC-aWDqNx1zUF7voPB5pQFDmfXus4TmjcEZKKQ-gRZPcatGMNPhvK5oEOhT7otUnVcpdu3w-iibKYRkNzvjne6Y3ooHcQRjdMLPZImV0pnqJE9oH29SHpi6NNVA"
                 />
                 <div className="absolute top-4 left-4">
@@ -149,9 +149,9 @@ export default function Home() {
             {/* Product 2 */}
             <div className="group">
               <div className="relative aspect-square mb-6 overflow-hidden bg-surface-container-highest rounded-xl">
-                <img 
-                  alt="LED Fixture" 
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                <img
+                  alt="LED Fixture"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvmyqJwfkfSVosy-1Y0VMElya4y0kVYi8SGtThpsMbWcf146a9H-0qD8f4i3U2qwW5hTUH0a7_20ORuzELtOyHhURh3akR-2R6CJsQCll9D1iSAXbiCtdJgncUmJpI2LzeO3e411j7VraSPUgHzKv1qqUiFrbZ1h2e5gKmdGba7QqdWuNc85FFskaLxGNCVnacxcEY-0yfMuDdFn4J7WCpE_UazUy9x-R2XfPQm64Ww7FOm4dg9lTMamUH3fK8gnjb8VvfZihv1usq"
                 />
               </div>
@@ -173,9 +173,9 @@ export default function Home() {
             {/* Product 3 */}
             <div className="group">
               <div className="relative aspect-square mb-6 overflow-hidden bg-surface-container-highest rounded-xl">
-                <img 
-                  alt="Digital Multimeter" 
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                <img
+                  alt="Digital Multimeter"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpKFTavIdM5vu9l1IawMJGlPYheccCJgpfd4NIbfRQK5fNj_vdNiReeqMZ0WhyeSmWp1_9PfQYh1v59A-k3z_y_M7FihVvoaJLPylcOFTkMPVk5HCUpOsbskC8x5FONdHZuXrbHW4M--jynUd6sD4-JykGFywCyPgnJj9WtwvtFMSA8GtDDzKdQegUjxng4w8-4KLa2XOYiHZwL40KtQdCsA57Q1M2qrguoo0_R1ENk3RWq9K047S022evaLcEHj2y7Zu6WMujCG4g"
                 />
               </div>
@@ -193,7 +193,7 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -209,7 +209,7 @@ export default function Home() {
               <h4 className="font-bold text-xl">Envíos rápidos</h4>
               <p className="text-on-surface-variant font-light text-sm max-w-[200px]">Logística optimizada para entregas en 24h a nivel nacional.</p>
             </div>
-            
+
             <div className="flex flex-col items-center text-center space-y-4 group">
               <div className="w-16 h-16 bg-surface-container flex items-center justify-center rounded-full group-hover:bg-primary-container transition-colors duration-300">
                 <span className="material-symbols-outlined text-primary text-3xl">verified</span>
@@ -217,7 +217,7 @@ export default function Home() {
               <h4 className="font-bold text-xl">Productos de calidad</h4>
               <p className="text-on-surface-variant font-light text-sm max-w-[200px]">Certificaciones internacionales en todo nuestro catálogo.</p>
             </div>
-            
+
             <div className="flex flex-col items-center text-center space-y-4 group">
               <div className="w-16 h-16 bg-surface-container flex items-center justify-center rounded-full group-hover:bg-primary-container transition-colors duration-300">
                 <span className="material-symbols-outlined text-primary text-3xl">support_agent</span>
@@ -234,7 +234,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-8 relative z-10">
           <div className="max-w-3xl space-y-8">
             <h2 className="text-5xl md:text-7xl font-black tracking-tight leading-none">
-              Impulsa tu <br/> <span className="text-primary text-stroke italic">próximo proyecto.</span>
+              Impulsa tu <br /> <span className="text-primary text-stroke italic">próximo proyecto.</span>
             </h2>
             <p className="text-xl font-light text-on-surface-variant">Suscríbete para recibir catálogos técnicos y ofertas exclusivas para profesionales.</p>
             <div className="flex flex-col sm:flex-row gap-4">
