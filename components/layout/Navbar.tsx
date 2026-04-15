@@ -7,14 +7,14 @@ export default function Navbar() {
         <Link href="/" className="text-2xl font-black tracking-tighter text-slate-900 uppercase">
           Rayforce
         </Link>
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden md:flex items-center gap-8">
           <Link href="/" className="text-primary font-bold border-b-2 border-primary pb-1">Inicio</Link>
           <Link href="/productos" className="text-slate-600 hover:text-slate-900 transition-colors">Productos</Link>
           <Link href="/categorias" className="text-slate-600 hover:text-slate-900 transition-colors">Categorías</Link>
           <Link href="/nosotros" className="text-slate-600 hover:text-slate-900 transition-colors">Nosotros</Link>
           <Link href="/contactos" className="text-slate-600 hover:text-slate-900 transition-colors">Contactos</Link>
         </div>
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center gap-4">
           <div className="relative group hidden sm:block">
             <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline">search</span>
             <input 
